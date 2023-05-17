@@ -29,7 +29,7 @@ const Navbar = () => {
                         </Link>
                     </div>
 
-                    <div className="fixed top-0 left-0 h-full -translate-x-full bg-body w-80 lg:static lg:top-auto lg:left-auto lg:h-auto lg:w-auto">
+                    <div className="fixed top-0 left-0 h-full -translate-x-full lg:-translate-x-0 bg-body w-80 lg:static lg:top-auto lg:left-auto lg:h-auto lg:w-auto">
                         <ul className="flex flex-col items-start lg:items-center lg:flex-row child:w-full">
                             <li className="relative">
                                 <Link href="/" className="block px-5 py-4 text-white opacity-80 hover:text-[#6DAC4C]">Dashboard</Link>
